@@ -1,44 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MERN Ride-Sharing App</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      background: #f9f9f9;
-      line-height: 1.6;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #0d6efd;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background: #f0f0f0;
-      padding: 10px;
-      overflow-x: auto;
-      border-left: 4px solid #0d6efd;
-    }
-    a {
-      color: #0d6efd;
-    }
-  </style>
-</head>
-<body>
+<div style="font-family: Arial, sans-serif; padding: 40px; background: #f9f9f9; line-height: 1.6; color: #333;">
 
-  <h1>🚗 MERN Ride-Sharing Application</h1>
+  <div style="color: #0d6efd; font-size: 2em; font-weight: bold;">🚗 MERN Ride-Sharing Application</div>
 
   <p><strong>A full-stack ride-sharing platform built with MongoDB, Express, React, and Node.js.</strong></p>
 
-  <h2>📌 Features</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">📌 Features</div>
   <ul>
     <li>User Registration & Login (JWT Auth)</li>
     <li>Role-based Access (Driver, Rider, Admin)</li>
@@ -49,7 +15,7 @@
     <li>Admin Dashboard for Monitoring Users & Rides</li>
   </ul>
 
-  <h2>🚀 Technologies Used</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">🚀 Technologies Used</div>
   <ul>
     <li><strong>Frontend:</strong> React.js, Axios, React Router, Bootstrap/Tailwind</li>
     <li><strong>Backend:</strong> Node.js, Express.js, JWT, MongoDB</li>
@@ -58,8 +24,8 @@
     <li><strong>Optional Realtime:</strong> Socket.io</li>
   </ul>
 
-  <h2>📂 Project Structure</h2>
-  <pre>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">📂 Project Structure</div>
+  <pre style="background: #f0f0f0; padding: 10px; border-left: 4px solid #0d6efd;">
 /client
   /src
     /components
@@ -80,12 +46,12 @@ package.json (root and /client)
 README.html
   </pre>
 
-  <h2>⚙️ Setup Instructions</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">⚙️ Setup Instructions</div>
 
-  <h3>1. Clone the Repository</h3>
+  <h4>1. Clone the Repository</h4>
   <pre><code>git clone https://github.com/your-username/mern-rideshare-app.git</code></pre>
 
-  <h3>2. Setup Backend</h3>
+  <h4>2. Setup Backend</h4>
   <pre><code>
 cd server
 npm install
@@ -96,21 +62,21 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret
   </code></pre>
 
-  <h3>3. Setup Frontend</h3>
+  <h4>3. Setup Frontend</h4>
   <pre><code>
 cd client
 npm install
 npm run dev
   </code></pre>
 
-  <h3>4. Run the Application</h3>
+  <h4>4. Run the Application</h4>
   <pre><code>
 # In root folder (concurrently)
 npm install concurrently
 npm run dev
   </code></pre>
 
-  <h2>🌐 API Endpoints</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">🌐 API Endpoints</div>
   <ul>
     <li><code>POST /api/auth/register</code> - Register user</li>
     <li><code>POST /api/auth/login</code> - Login user</li>
@@ -121,29 +87,26 @@ npm run dev
     <li><code>GET /api/admin/dashboard</code> - Admin stats</li>
   </ul>
 
-  <h2>🛡 Authentication</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">🛡 Authentication</div>
   <p>
     All protected routes require a JWT token in headers: <code>Authorization: Bearer &lt;token&gt;</code>.
   </p>
 
-  <h2>📦 Deployment</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">📦 Deployment</div>
   <ul>
     <li>Frontend: Netlify / Vercel</li>
     <li>Backend: Render / Railway / Heroku</li>
     <li>Database: MongoDB Atlas</li>
   </ul>
 
-  <h2>📸 Screenshots</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">📸 Screenshots</div>
   <p>Add your project screenshots here.</p>
 
-  <h2>🤝 Contributing</h2>
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">🤝 Contributing</div>
   <p>Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.</p>
 
-  
+  <div style="color: #0d6efd; font-size: 1.5em; margin-top: 20px;">📬 Contact</div>
+  <p>Email: <a href="mailto:samiunarnouk@gmail.com">samiunarnouk@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/samiunarno" target="_blank">samiunarno</a></p>
 
-  <h2>📬 Contact</h2>
-  <p>Email: <a href="mailto:your-email@example.com">samiunarnouk@gmail.com</a></p>
-  <p>GitHub: <a href="https://github.com/your-username" target="_blank">samiunarno</a></p>
-
-</body>
-</html>
+</div>
